@@ -1,0 +1,4 @@
+- Make sure all input is valid before adding credential to database
+- Hash passwords
+- GUI
+- Fix show when database empty
