@@ -59,7 +59,8 @@ def search_credentials():
     name = input("Name: ")
     print("Name    Username    Password")
     for row in db.search_credentials(name):
-        print(f"{row['name']} {row['username']} {row['password']}")
+        print(
+            f"{row['name']} {row['username']} {decrypt_password(row['password'])}")
 
 
 def delete_credential():
