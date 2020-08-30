@@ -17,13 +17,13 @@ if __name__ == "__main__":
         command = input("Command: ")
 
         if command == 'a':
-            add_credentials()
+            add_credential()
         elif command == 's':
             show_credentials()
         elif command == 'se':
             search_credentials()
         elif command == 'd':
-            delete_credentials()
+            delete_credential()
         elif command == 'h':
             list_commands()
         elif command == 'e':
