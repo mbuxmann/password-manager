@@ -2,14 +2,6 @@ import backend as db
 from encryption import encrypted_password, decrypt_password
 
 
-def validate_user(username, password):
-    '''Takes in a username and password for validation'''
-    if username.lower() == "bitvivaz" and password == "123":
-        return True
-    else:
-        return False
-
-
 def list_commands():
     '''List commands that are available'''
     print('''
