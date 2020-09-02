@@ -4,43 +4,39 @@ from encryption import encrypted_password, decrypt_password
 import backend as db
 
 
-def get_credentials(tree):
-    '''Retrieves all credentials from the database and inserts it into the tree widget'''
-    for row in db.show_credentials():
-        tree.insert("", 'end', text=row['name'], values=(
-            row['username'], decrypt_password(row['password'])))
-
-
 class MainframeApp:
     def __init__(self, master=None):
+        self.selected_credential = None
         # build ui
         frame_main = ttk.Frame(master)
         frame_main.config(height='600', width='600')
         frame_main.grid()
 
         # Creates tree widget
-        tree = ttk.Treeview(frame_main)
+        self.tree = ttk.Treeview(frame_main)
 
-        tree["columns"] = ("one", "two")
+        self.tree["columns"] = ("one", "two")
 
-        tree.column("#0")
-        tree.column("one")
-        tree.column("two")
+        self.tree.column("#0")
+        self.tree.column("one")
+        self.tree.column("two")
 
-        tree.heading("#0", text="Website")
-        tree.heading("one", text="Username")
-        tree.heading("two", text="Password")
+        self.tree.heading("#0", text="Website")
+        self.tree.heading("one", text="Username")
+        self.tree.heading("two", text="Password")
 
-        tree.grid(padx='5', pady='5', rowspan='20')
+        self.tree.grid(padx='5', pady='5', rowspan='20')
 
-        get_credentials(tree)
+        self.get_credentials()
 
-        tree.bind("<<TreeviewSelect>>", self.select, "+")
+        self.tree.bind("<<TreeviewSelect>>", self.select)
 
+        # Create buttons
         button_add = ttk.Button(frame_main)
         button_add.config(text='Add')
         button_add.grid(column='1', padx='5', row='0')
-        button_delete = ttk.Button(frame_main)
+        button_delete = ttk.Button(
+            frame_main, command=self.delete_credential)
         button_delete.config(text='Delete')
         button_delete.grid(column='1', padx='5', row='1')
         button_logout = ttk.Button(frame_main)
@@ -50,11 +46,23 @@ class MainframeApp:
         # Main widget
         self.mainwindow = frame_main
 
-    def select(self, e):
-        print([tree.item(x) for x in tree.selection()])
-
     def run(self):
         self.mainwindow.mainloop()
+
+    def get_credentials(self):
+        '''Retrieves all credentials from the database and inserts it into the tree widget'''
+        for row in db.show_credentials():
+            self.tree.insert("", 'end', text=row['name'], values=(
+                row['username'], decrypt_password(row['password'])))
+
+    def select(self, e):
+        self.selected_credential = self.tree.item(
+            self.tree.selection())['text']
+
+    def delete_credential(self):
+        '''Delete credential from database'''
+        db.delete_credential(self.selected_credential)
+        self.get_credentials()
 
 
 if __name__ == '__main__':
