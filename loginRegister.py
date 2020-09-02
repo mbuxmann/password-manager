@@ -6,7 +6,6 @@ import tkinter.ttk as ttk
 class loginRegister:
 
     def __init__(self, master=None):
-        self.username = tk.StringVar
 
         # Build UI
         frame_start = ttk.Frame(master)
@@ -20,7 +19,7 @@ class loginRegister:
         label_password.config(anchor='e', text='Password: ', width='10')
         label_password.grid(padx='5', pady='5', row='1')
 
-        entry_username = ttk.Entry(frame_start, textvariable=self.username)
+        entry_username = ttk.Entry(frame_start)
         entry_username.config(justify='left')
         entry_username.grid(column='1', padx='5', pady='5', row='0')
         entry_password = ttk.Entry(frame_start, show="*")

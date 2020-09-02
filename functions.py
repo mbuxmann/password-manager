@@ -37,15 +37,6 @@ def add_credential():
         else:
             print(f"{name} already exists, please try again")
 
-
-def show_credentials():
-    '''Show all credentials in database'''
-    print("Name    Username    Password")
-    for row in db.show_credentials():
-        print(
-            f"{row['name']} {row['username']} {decrypt_password(row['password'])}")
-
-
 def search_credentials():
     '''Search all credentials that match in database'''
     name = input("Name: ")

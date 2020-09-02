@@ -1,5 +1,14 @@
 import tkinter as tk
 import tkinter.ttk as ttk
+from encryption import encrypted_password, decrypt_password
+import backend as db
+
+
+def get_credentials(tree):
+    '''Retrieves all credentials from the database and inserts it into the tree widget'''
+    for row in db.show_credentials():
+        tree.insert("", 'end', text=row['name'], values=(
+            row['username'], decrypt_password(row['password'])))
 
 
 class MainframeApp:
@@ -9,31 +18,24 @@ class MainframeApp:
         frame_main.config(height='600', width='600')
         frame_main.grid()
 
-        treeview_credentials = ttk.Treeview(frame_main)
+        # Creates tree widget
+        tree = ttk.Treeview(frame_main)
 
-        # Defining number of columns
-        treeview_credentials["columns"] = ("0", "1", "2")
+        tree["columns"] = ("one", "two")
 
-        # Assigning the width and anchor to  the
-        # respective columns
-        treeview_credentials.column("0", width=90, anchor='c')
-        treeview_credentials.column("1", width=90, anchor='c')
-        treeview_credentials.column("2", width=90, anchor='c')
+        tree.column("#0")
+        tree.column("one")
+        tree.column("two")
 
-        # Assigning the heading names to the
-        # respective columns
-        treeview_credentials.heading("0", text="Name")
-        treeview_credentials.heading("1", text="Sex")
-        treeview_credentials.heading("2", text="Age")
+        tree.heading("#0", text="Website")
+        tree.heading("one", text="Username")
+        tree.heading("two", text="Password")
 
-        treeview_credentials.grid(padx='5', pady='5', rowspan='20')
+        tree.grid(padx='5', pady='5', rowspan='20')
 
-        treeview_credentials.insert("", 'end', text="L1",
-                                    values=("Nidhi", "F", "25"))
-        treeview_credentials.insert("", 'end', text="L2",
-                                    values=("Nisha", "F", "23"))
-        treeview_credentials.insert("", 'end', text="L3",
-                                    values=("Preeti", "F", "27"))
+        get_credentials(tree)
+
+        tree.bind("<<TreeviewSelect>>", self.select, "+")
 
         button_add = ttk.Button(frame_main)
         button_add.config(text='Add')
@@ -47,6 +49,9 @@ class MainframeApp:
 
         # Main widget
         self.mainwindow = frame_main
+
+    def select(self, e):
+        print([tree.item(x) for x in tree.selection()])
 
     def run(self):
         self.mainwindow.mainloop()
