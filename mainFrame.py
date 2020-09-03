@@ -21,15 +21,15 @@ class MainframeApp:
         self.tree.column("one")
         self.tree.column("two")
 
-        self.tree.heading("#0", text="Website")
+        self.tree.heading("#0", text="Name")
         self.tree.heading("one", text="Username")
         self.tree.heading("two", text="Password")
+
+        self.tree.bind("<<TreeviewSelect>>", self.select)
 
         self.tree.grid(padx='5', pady='5', rowspan='20')
 
         self.get_credentials()
-
-        self.tree.bind("<<TreeviewSelect>>", self.select)
 
         # Create buttons
         button_add = ttk.Button(frame_main)
@@ -62,7 +62,13 @@ class MainframeApp:
     def delete_credential(self):
         '''Delete credential from database'''
         db.delete_credential(self.selected_credential)
+        self.clear_tree()
         self.get_credentials()
+
+    def clear_tree(self):
+        ''''''
+        for item in self.tree.get_children():
+            self.tree.delete(item)
 
 
 if __name__ == '__main__':

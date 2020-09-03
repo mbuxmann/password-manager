@@ -1,4 +1,4 @@
-from functions import validate_user, list_commands, add_credential, show_credentials, search_credentials, delete_credential
+from functions import list_commands, add_credential, search_credentials
 greeted = False
 
 
@@ -18,14 +18,6 @@ if __name__ == "__main__":
 
         if command == 'a':
             add_credential()
-        elif command == 's':
-            show_credentials()
-        elif command == 'se':
-            search_credentials()
-        elif command == 'd':
-            delete_credential()
-        elif command == 'h':
-            list_commands()
         elif command == 'e':
             break
         else:

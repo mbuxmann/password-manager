@@ -22,6 +22,10 @@ def add_credential(name, username, password):
     conn.close()
 
 
+# add_credential('test', 'test', 'test')
+# add_credential('te', 'te', 'te')
+
+
 def show_credentials():
     s = select([credentials])
     conn = db.connect()
