@@ -1,6 +1,7 @@
 from sqlalchemy import create_engine, Table, Column, String, MetaData
 from sqlalchemy.sql import select
 
+
 metadata = MetaData()
 
 credentials = Table('credentials', metadata,
@@ -9,7 +10,7 @@ credentials = Table('credentials', metadata,
                     Column('password', String, nullable=False),
                     )
 
-db = create_engine('sqlite:///database.db', echo=False)
+db = create_engine(f'sqlite:///database.db', echo=False)
 
 metadata.create_all(db)
 
@@ -20,10 +21,6 @@ def add_credential(name, username, password):
     conn = db.connect()
     conn.execute(ins)
     conn.close()
-
-
-# add_credential('test', 'test', 'test')
-# add_credential('te', 'te', 'te')
 
 
 def show_credentials():
