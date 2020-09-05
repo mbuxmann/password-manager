@@ -25,7 +25,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Lock_font_awesome.svg/1200px-Lock_font_awesome.svg.png" alt="Logo" width="150" height="150">
   </a>
 
   <h3 align="center">Password Manager</h3>
@@ -36,16 +36,11 @@
     <a href="#table-of-contents"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://github.com/bitvivaz/PasswordManager/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/bitvivaz/PasswordManager/issues">Request Feature</a>
   </p>
 </p>
-
-
-
 
 
 <!-- TABLE OF CONTENTS -->
@@ -77,10 +72,7 @@ Here's a blank template to get started:
 
 ### Built With
 
-* []()
-* []()
-* []()
-
+* [Python](https://www.python.org/)
 
 
 <!-- GETTING STARTED -->
@@ -148,7 +140,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
+Martin Buxmann - [@EMBuxmann](https://twitter.com/EMBuxmann) - mbuxmann@outlook.com
 
 Project Link: [https://github.com/bitVivAZ/PasswordManager](https://github.com/bitVivAZ/PasswordManager)
 
@@ -157,12 +149,9 @@ Project Link: [https://github.com/bitVivAZ/PasswordManager](https://github.com/b
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-* []()
-* []()
-* []()
-
-
-
+* [Tkinter](https://docs.python.org/3/library/tk.html)
+* [Cryptography](https://pypi.org/project/cryptography/)
+* [SQLAlchemy](https://www.sqlalchemy.org/)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
