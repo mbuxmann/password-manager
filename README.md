@@ -150,10 +150,6 @@ Project Link: [https://github.com/bitVivAZ/PasswordManager](https://github.com/b
 * [Cryptography](https://pypi.org/project/cryptography/)
 * [SQLAlchemy](https://www.sqlalchemy.org/)
 
-## Screenshots
-
-[![mainFrame][mainFrame-screenshot]]()
-[![addCredentialFrame][addCredentialFrame-screenshot]]()
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
@@ -169,6 +165,4 @@ Project Link: [https://github.com/bitVivAZ/PasswordManager](https://github.com/b
 [license-url]: https://github.com/bitvivaz/PasswordManager/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/mbuxmann
-[mainFrame-screenshot]: images/mainFrame.png
-[loginFrame-screenshot]: images/loginFrame.png
-[addCredentialFrame-screenshot]: images/addCredentialFrame.png
+
