@@ -8,7 +8,7 @@ class Application(tk.Tk):
     def __init__(self):
         tk.Tk.__init__(self)
         self._frame = None
-        self.switch_frame(loginRegisterFrame)
+        self.switch_frame(loginFrame)
 
     def switch_frame(self, frame_class):
         '''Destroys current frame and replaces it with a new one.'''
@@ -19,7 +19,7 @@ class Application(tk.Tk):
         self._frame.grid()
 
 
-class loginRegisterFrame(tk.Frame):
+class loginFrame(tk.Frame):
     def __init__(self, master):
         ttk.Frame.__init__(self, master)
         self.error_message = None
@@ -46,7 +46,7 @@ class loginRegisterFrame(tk.Frame):
         button_login.config(text='Login', width='20')
         button_login.grid(column='1', padx='5', pady='5', row='3')
 
-    # loginRegisterFrame Methods
+    # loginFrame Methods
     def exit(self):
         app.destroy()
 
@@ -103,7 +103,7 @@ class mainFrame(tk.Frame):
         button_delete.grid(column='1', padx='5', row='1')
         button_logout = ttk.Button(self)
         button_logout.config(
-            text='Logout', command=lambda: master.switch_frame(loginRegisterFrame))
+            text='Logout', command=lambda: master.switch_frame(loginFrame))
         button_logout.grid(column='1', padx='5', row='2')
 
     # mainFrame Methods
