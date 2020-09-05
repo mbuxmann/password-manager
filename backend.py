@@ -16,6 +16,7 @@ metadata.create_all(db)
 
 
 def add_credential(name, username, password):
+    '''Add a credential to the database'''
     ins = credentials.insert().values(
         name=name, username=username, password=password)
     conn = db.connect()
@@ -24,6 +25,7 @@ def add_credential(name, username, password):
 
 
 def show_credentials():
+    '''Show all credentials from the database'''
     s = select([credentials])
     conn = db.connect()
     result = conn.execute(s)
@@ -31,6 +33,7 @@ def show_credentials():
 
 
 def search_credentials(name):
+    '''Search the database for a name'''
     s = select([credentials]).where(credentials.c.name.like(f'%{name}%'))
     conn = db.connect()
     result = conn.execute(s)
@@ -38,12 +41,14 @@ def search_credentials(name):
 
 
 def delete_credential(name):
+    '''Delete a credential from the database'''
     conn = db.connect()
     conn.execute(credentials.delete().where(credentials.c.name == name))
     conn.close()
 
 
 def check_existance(name):
+    '''Check if a credential already exists with the same name in the database'''
     s = select([credentials]).where(credentials.c.name == name)
     conn = db.connect()
     result = conn.execute(s)
