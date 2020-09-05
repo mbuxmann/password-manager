@@ -91,8 +91,21 @@ pip install -r requirements.txt
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Login. The Default username and password is admin.
+<p align="center">
+  <img src="images/loginFrame.png">
+</p>
 
+View or delete selected stored credentials.
+<p align="center">
+  <img src="images/mainFrame.png">
+</p>
+
+
+Add credential to Password Manager.
+<p align="center">
+  <img src="images/addCredentialFrame.png">
+</p>
 
 <!-- ROADMAP -->
 ## Roadmap
@@ -138,7 +151,7 @@ Project Link: [https://github.com/bitVivAZ/PasswordManager](https://github.com/b
 * [SQLAlchemy](https://www.sqlalchemy.org/)
 
 ## Screenshots
-[![loginFrame][loginFrame-screenshot]]()
+
 [![mainFrame][mainFrame-screenshot]]()
 [![addCredentialFrame][addCredentialFrame-screenshot]]()
 
