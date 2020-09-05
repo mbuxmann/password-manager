@@ -91,7 +91,7 @@ pip install -r requirements.txt
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Login. The Default username and password is admin.
+Login. The Default username and password is **admin**.
 <p align="left">
   <img src="images/loginFrame.png">
 </p>
