@@ -153,16 +153,5 @@ Project Link: [https://github.com/bitVivAZ/PasswordManager](https://github.com/b
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/bitvivaz/PasswordManager.svg?style=flat-square
-[contributors-url]: https://github.com/bitVivAZ/PasswordManager/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/bitvivaz/PasswordManager.svg?style=flat-square
-[forks-url]: https://github.com/bitVivAZ/PasswordManager/network/members
-[stars-shield]: https://img.shields.io/github/stars/bitvivaz/PasswordManager.svg?style=flat-square
-[stars-url]: https://github.com/bitVivAZ/PasswordManager/stargazers
-[issues-shield]: https://img.shields.io/github/issues/bitvivaz/PasswordManager.svg?style=flat-square
-[issues-url]: https://github.com/bitVivAZ/PasswordManager/repo/issues
-[license-shield]: https://img.shields.io/github/license/bitvivaz/PasswordManager.svg?style=flat-square
-[license-url]: https://github.com/bitvivaz/PasswordManager/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/mbuxmann
+
 
