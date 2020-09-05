@@ -12,7 +12,9 @@
   <a href="https://github.com/bitVivAZ/PasswordManager/repo/issues">
     <img src="https://img.shields.io/github/issues/bitvivaz/PasswordManager.svg?style=flat-square">
   </a>
-
+  <a href="https://github.com/bitvivaz/PasswordManager/blob/master/LICENSE.txt">
+    <img src="https://img.shields.io/github/license/bitvivaz/PasswordManager.svg?style=flat-square">
+  </a>
   <a href="https://linkedin.com/in/mbuxmann">
     <img src="https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555">
   </a>
