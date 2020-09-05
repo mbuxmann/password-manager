@@ -1,10 +1,24 @@
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
+<p align="center">
+  <a href="https://github.com/bitVivAZ/PasswordManager/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/bitvivaz/PasswordManager.svg?style=flat-square">
+  </a>
+  <a href="https://github.com/bitVivAZ/PasswordManager/network/members">
+    <img src="https://img.shields.io/github/forks/bitvivaz/PasswordManager.svg?style=flat-square">
+  </a>
+  <a href="https://github.com/bitVivAZ/PasswordManager/stargazers">
+    <img src="https://img.shields.io/github/stars/bitvivaz/PasswordManager.svg?style=flat-square">
+  </a>
+  <a href="https://github.com/bitVivAZ/PasswordManager/repo/issues">
+    <img src="https://img.shields.io/github/issues/bitvivaz/PasswordManager.svg?style=flat-square">
+  </a>
+  <a href="https://github.com/bitvivaz/PasswordManager/blob/master/LICENSE.txt">
+    <img src="https://img.shields.io/github/license/bitvivaz/PasswordManager.svg?style=flat-square">
+  </a>
+  <a href="https://linkedin.com/in/mbuxmann">
+    <img src="https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555">
+  </a>
+</p>
 
 
 <!-- PROJECT LOGO -->
@@ -14,12 +28,12 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">YOUR_TITLE</h3>
+  <h3 align="center">Password Manager</h3>
 
   <p align="center">
-    YOUR_SHORT_DESCRIPTION
+    A place to manage and store your passwords
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="#table-of-contents"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/github_username/repo_name">View Demo</a>
@@ -29,6 +43,8 @@
     <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
   </p>
 </p>
+
+
 
 
 
