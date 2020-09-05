@@ -63,13 +63,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![mainFrame][mainFrame-screenshot]]()
-
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo_name`, `twitter_handle`, `email`
-
-
 ### Built With
 
 * [Python](https://www.python.org/)
@@ -82,24 +75,18 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-```sh
-npm install npm@latest -g
-```
+* [pip](https://pypi.org/project/pip/)
 
 ### Installation
 
 1. Clone the repo
 ```sh
-git clone https://github.com/github_username/repo_name.git
+git clone https://github.com/bitVivAZ/PasswordManager.git
 ```
-2. Install NPM packages
+2. Install required packages
 ```sh
-npm install
+pip install -r requirements.txt
 ```
-
-
 
 <!-- USAGE EXAMPLES -->
 ## Usage
