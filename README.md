@@ -24,7 +24,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/github_username/repo_name">
+  <a href="https://github.com/bitvivaz/PasswordManager">
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Lock_font_awesome.svg/1200px-Lock_font_awesome.svg.png" alt="Logo" width="150" height="150">
   </a>
 
@@ -63,7 +63,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![mainFrame][mainFrame-screenshot]]()
 
 Here's a blank template to get started:
 **To avoid retyping too much info. Do a search and replace with your text editor for the following:**
@@ -153,6 +153,10 @@ Project Link: [https://github.com/bitVivAZ/PasswordManager](https://github.com/b
 * [Cryptography](https://pypi.org/project/cryptography/)
 * [SQLAlchemy](https://www.sqlalchemy.org/)
 
+## Screenshots
+[![loginFrame][loginFrame-screenshot]]()
+[![mainFrame][mainFrame-screenshot]]()
+[![addCredentialFrame][addCredentialFrame-screenshot]]()
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
@@ -168,4 +172,6 @@ Project Link: [https://github.com/bitVivAZ/PasswordManager](https://github.com/b
 [license-url]: https://github.com/bitvivaz/PasswordManager/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/mbuxmann
-[product-screenshot]: images/screenshot.png
+[mainFrame-screenshot]: images/mainFrame.png
+[loginFrame-screenshot]: images/loginFrame.png
+[addCredentialFrame-screenshot]: images/addCredentialFrame.png
