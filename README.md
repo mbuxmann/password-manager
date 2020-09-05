@@ -92,18 +92,18 @@ pip install -r requirements.txt
 ## Usage
 
 Login. The Default username and password is admin.
-<p align="center">
+<p align="left">
   <img src="images/loginFrame.png">
 </p>
 
 View or delete selected stored credentials.
-<p align="center">
+<p align="left">
   <img src="images/mainFrame.png">
 </p>
 
 
 Add credential to Password Manager.
-<p align="center">
+<p align="left">
   <img src="images/addCredentialFrame.png">
 </p>
 
