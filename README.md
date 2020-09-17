@@ -1,19 +1,19 @@
 
 <p align="center">
-  <a href="https://github.com/bitVivAZ/PasswordManager/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/bitvivaz/PasswordManager.svg?style=flat-square">
+  <a href="https://github.com/bitVivAZ/password-manager/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/bitvivaz/password-manager.svg?style=flat-square">
   </a>
-  <a href="https://github.com/bitVivAZ/PasswordManager/network/members">
-    <img src="https://img.shields.io/github/forks/bitvivaz/PasswordManager.svg?style=flat-square">
+  <a href="https://github.com/bitVivAZ/password-manager/network/members">
+    <img src="https://img.shields.io/github/forks/bitvivaz/password-manager.svg?style=flat-square">
   </a>
-  <a href="https://github.com/bitVivAZ/PasswordManager/stargazers">
-    <img src="https://img.shields.io/github/stars/bitvivaz/PasswordManager.svg?style=flat-square">
+  <a href="https://github.com/bitVivAZ/password-manager/stargazers">
+    <img src="https://img.shields.io/github/stars/bitvivaz/password-manager.svg?style=flat-square">
   </a>
-  <a href="https://github.com/bitVivAZ/PasswordManager/repo/issues">
-    <img src="https://img.shields.io/github/issues/bitvivaz/PasswordManager.svg?style=flat-square">
+  <a href="https://github.com/bitVivAZ/password-manager/repo/issues">
+    <img src="https://img.shields.io/github/issues/bitvivaz/password-manager.svg?style=flat-square">
   </a>
-  <a href="https://github.com/bitvivaz/PasswordManager/blob/master/LICENSE.txt">
-    <img src="https://img.shields.io/github/license/bitvivaz/PasswordManager.svg?style=flat-square">
+  <a href="https://github.com/bitvivaz/password-manager/blob/master/LICENSE.txt">
+    <img src="https://img.shields.io/github/license/bitvivaz/password-manager.svg?style=flat-square">
   </a>
   <a href="https://linkedin.com/in/mbuxmann">
     <img src="https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555">
@@ -24,7 +24,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/bitvivaz/PasswordManager">
+  <a href="https://github.com/bitvivaz/password-manager">
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Lock_font_awesome.svg/1200px-Lock_font_awesome.svg.png" alt="Logo" width="150" height="150">
   </a>
 
@@ -36,9 +36,9 @@
     <a href="#table-of-contents"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/bitvivaz/PasswordManager/issues">Report Bug</a>
+    <a href="https://github.com/bitvivaz/password-manager/issues">Report Bug</a>
     ·
-    <a href="https://github.com/bitvivaz/PasswordManager/issues">Request Feature</a>
+    <a href="https://github.com/bitvivaz/password-manager/issues">Request Feature</a>
   </p>
 </p>
 
@@ -81,7 +81,7 @@ To get a local copy up and running follow these simple steps.
 
 1. Clone the repo
 ```sh
-git clone https://github.com/bitVivAZ/PasswordManager.git
+git clone https://github.com/bitVivAZ/password-manager.git
 ```
 2. Install required packages
 ```sh
@@ -110,7 +110,7 @@ Add credential to Password Manager.
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/bitvivaz/PasswordManager/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/bitvivaz/password-manager/issues) for a list of proposed features (and known issues).
 
 
 
@@ -139,7 +139,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Martin Buxmann - [@EMBuxmann](https://twitter.com/EMBuxmann) - mbuxmann@outlook.com
 
-Project Link: [https://github.com/bitVivAZ/PasswordManager](https://github.com/bitVivAZ/PasswordManager)
+Project Link: [https://github.com/bitVivAZ/password-manager](https://github.com/bitVivAZ/password-manager)
 
 
 
