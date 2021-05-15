@@ -1,19 +1,19 @@
 
 <p align="center">
-  <a href="https://github.com/bitVivAZ/password-manager/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/bitvivaz/password-manager.svg?style=flat-square">
+  <a href="https://github.com/mbuxmann/password-manager/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/mbuxmann/password-manager.svg?style=flat-square">
   </a>
-  <a href="https://github.com/bitVivAZ/password-manager/network/members">
-    <img src="https://img.shields.io/github/forks/bitvivaz/password-manager.svg?style=flat-square">
+  <a href="https://github.com/mbuxmann/password-manager/network/members">
+    <img src="https://img.shields.io/github/forks/mbuxmann/password-manager.svg?style=flat-square">
   </a>
-  <a href="https://github.com/bitVivAZ/password-manager/stargazers">
-    <img src="https://img.shields.io/github/stars/bitvivaz/password-manager.svg?style=flat-square">
+  <a href="https://github.com/mbuxmann/password-manager/stargazers">
+    <img src="https://img.shields.io/github/stars/mbuxmann/password-manager.svg?style=flat-square">
   </a>
-  <a href="https://github.com/bitVivAZ/password-manager/repo/issues">
-    <img src="https://img.shields.io/github/issues/bitvivaz/password-manager.svg?style=flat-square">
+  <a href="https://github.com/mbuxmann/password-manager/repo/issues">
+    <img src="https://img.shields.io/github/issues/mbuxmann/password-manager.svg?style=flat-square">
   </a>
-  <a href="https://github.com/bitvivaz/password-manager/blob/master/LICENSE.txt">
-    <img src="https://img.shields.io/github/license/bitvivaz/password-manager.svg?style=flat-square">
+  <a href="https://github.com/mbuxmann/password-manager/blob/master/LICENSE.txt">
+    <img src="https://img.shields.io/github/license/mbuxmann/password-manager.svg?style=flat-square">
   </a>
   <a href="https://linkedin.com/in/mbuxmann">
     <img src="https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555">
@@ -24,7 +24,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/bitvivaz/password-manager">
+  <a href="https://github.com/mbuxmann/password-manager">
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Lock_font_awesome.svg/1200px-Lock_font_awesome.svg.png" alt="Logo" width="150" height="150">
   </a>
 
@@ -36,9 +36,9 @@
     <a href="#table-of-contents"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/bitvivaz/password-manager/issues">Report Bug</a>
+    <a href="https://github.com/mbuxmann/password-manager/issues">Report Bug</a>
     ·
-    <a href="https://github.com/bitvivaz/password-manager/issues">Request Feature</a>
+    <a href="https://github.com/mbuxmann/password-manager/issues">Request Feature</a>
   </p>
 </p>
 
